@@ -1,0 +1,120 @@
+<html>
+
+	<head>
+		<title>First html code</title>
+	
+	</head>
+
+	<body>
+	<h1>Heading1</h1>
+	<h2>Heading2</h2>
+	
+	<a id = "top">
+	<p>HTML is the standard markup language for Web pages. With HTML you can create your own Website.</p>
+	
+	<a href = "#bottom">Click to go to bottom of page</a>
+	
+	<p>HTML is easy to learn - You will enjoy it!</p>
+	
+	<p>Selenium IDE and Selenium webdriver:
+Selenium IDE is a simple record and playback kind of tool which comes as an add-on for Mozilla Firefox only. It is used for prototype testing. Test cases written in IDE can be exported in many programming languages like Ruby, Java, C#, etc. Edit and Debug options along with record are also available. It is an excellent tool for beginners to understand the syntax of Selenium WebDriver.
+
+Selenium RC:
+Selenium RC (Remote Control) was the first tool of Selenium Suite. Earlier it was known as JavaScript Executor. RC was the tool which made Selenium famous in the market.
+
+It was the first tool which provided the support for multiple programming languages (JAVA, Ruby, Perl, PHP, Python, and C#).
+
+It also supported almost all the major vendors of Browsers like Mozilla Firefox, Google Chrome, Internet Explorer. All the browsers which support JavaScript can be automated using this tool.
+
+Selenium RC is also known as Selenium 1.
+In WebDriver, this method loads a new web page in the existing browser window. It accepts String as parameter and returns void.
+
+The respective command to load/navigate a new web page can be written as:
+
+driver.navigate().to("www.javatpoint.com");  
+Note: The get command (driver.get(URL);) which lies in the browser commands section does the same function as the navigate command
+(driver.navigate().to("www.javatpoint.com");   
+2. Forward Command
+Method:
+
+to(String arg0) : void  
+In WebDriver, this method enables the web browser to click on the forward button in the existing browser window. It neither accepts anything nor returns anything.
+
+The respective command that takes you forward by one page on the browser's history can be written as:
+
+driver.navigate().forward();  
+3. Back Command
+Method:
+
+back() : void  
+In WebDriver, this method enables the web browser to click on the back button in the existing browser window. It neither accepts anything nor returns anything.
+
+The respective command that takes you back by one page on the browser's history can be written as:
+
+
+driver.navigate().back();  
+4. Refresh Command
+Method:
+
+refresh() : void  
+In WebDriver, this method refresh/reloads the current web page in the existing browser window. It neither accepts anything nor returns anything.
+
+The respective command that takes you back by one page on the browser's history can be written as:
+
+driver.navigate().refresh();  
+Let us consider a sample test script which will cover most of the Navigation Commands provided by WebDriver.
+
+In this sample test, we will automate the following test scenarios:
+
+
+Invoke Firefox Browser
+Navigate to URL: https://www.testandquiz.com/selenium/testing.html
+Click on the "This is a link" link (This link will redirect you to the javaTpoint website)
+Come back to the Home page using the back command
+Again go back to the javaTpoint website using forward command
+Again come back to the Home page using To command
+Refresh the Browser using Refresh command
+Close the Browser
+For our test purpose, we are using a dummy web page under the URL:
+
+https://www.testandquiz.com/selenium/testing.html (You can also use this dummy web page for your Selenium Test Practices)
+
+Step1. Launch Eclipse IDE and open the existing test suite "Demo_Test" which we have created in WebDriver Installation section of WebDriver tutorial.
+Step2. Right click on the "src" folder and create a new Class File from New >Class.
+Selenium WebDriver - Navigation Commands
+Give your Class name as "Navigation_command" and click on "Finish" button.
+
+Selenium automates browsers. That's it!
+What you do with that power is entirely up to you.
+
+Primarily it is for automating web applications for testing purposes, but is certainly not limited to just that.
+
+
+
+
+<a id = "bottom"></a>
+The architecture of Selenium RC:
+In Selenium RC, there is a manual process called Selenium Server is mandatory to start before execution, which acts as a middleman between the code and the browser. The commands (API’s) are sent to Server. It interprets the command and converts it into JavaScript and then JavaScript is injected to the browser. Now the browser executes the javascript and responds to a server, which again interprets the command and returns to code in the respective language.
+
+
+<div>
+<p>
+
+Adding a new paragraph to check git tracking
+
+</p>
+</div>
+
+<a>
+One more addition 
+</a>	
+	
+	
+	
+	
+	
+	
+	</body>
+
+
+</html>
